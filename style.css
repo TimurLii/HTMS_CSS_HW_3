@@ -1,0 +1,88 @@
+@font-face {
+	font-family: Gilroy-Bold;
+	src: url("./fonts/Gilroy-Bold.woff2");
+}
+@font-face {
+	font-family: Gilroy-Medium;
+	src: url("./fonts/Gilroy-Medium.woff2");
+}
+@font-face {
+	font-family: Gilroy-Regular;
+	src: url("./fonts/Gilroy-Regular.woff2");
+}
+@font-face {
+	font-family: Gilroy-Semibold;
+	src: url("./fonts/Gilroy-Semibold.woff2");
+}
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body {
+	scroll-behavior: smooth;
+	background: rgb(255, 255, 255);
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+.container {
+	max-width: 1174px;
+	margin: 0 auto;
+}
+.header {
+	padding: 40px 0;
+	margin-bottom: 164px;
+}
+.navigation a {
+	font-size: 14px;
+}
+.home {
+	color: rgb(242, 88, 34);
+}
+.main {
+	margin-bottom: 100px;
+}
+.mainContent {
+}
+.mainContentLeftSide h1 {
+  font-family:"Gilroy-Bold";
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+	line-height: 120%;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+
+}
+.mainContent p {
+  font-family: "Gilroy-Regular";
+  color: rgb(136, 136, 136);
+  font-size: 20px;
+	line-height: 140%;
+	margin-bottom: 32px;
+}
+.mainContetnBtnList{}
+
+.btnStart{
+  font-family:"Gilroy-Bold";
+  color: #fff;
+  padding: 16px 31px ;
+  border-radius: 100px;
+  background: #F25822;
+  font-style: 16px;
+  border: none;
+  cursor: pointer;
+}
+.btnWatch{
+  font-family: "Gilroy-Bold";
+  color:rgb(170, 170, 170);
+  padding: 16px 31px ;
+  font-style: 16px;
+  background:none;
+  border: none;
+  cursor: pointer;
+}
+.footer{
+  margin-bottom: 100px;
+}
