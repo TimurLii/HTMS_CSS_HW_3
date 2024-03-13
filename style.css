@@ -35,54 +35,65 @@ img {
 	padding: 40px 0;
 	margin-bottom: 164px;
 }
-.navigation a {
-	font-size: 14px;
-}
 .home {
+  font-family: Gilroy-Bold;
 	color: rgb(242, 88, 34);
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+}
+.aboutHome{
+  font-family: Gilroy-Regular;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
 }
 .main {
+	font-family: "Gilroy-Regular";
 	margin-bottom: 100px;
+	font-size: 14px;
+	line-height: 120%;
 }
 .mainContent {
 }
 .mainContentLeftSide h1 {
-  font-family:"Gilroy-Bold";
-  color: rgb(0, 0, 0);
-  font-size: 60px;
+	font-family: "Gilroy-Bold";
+	color: rgb(0, 0, 0);
+	font-size: 60px;
 	line-height: 120%;
 	text-transform: uppercase;
 	margin-bottom: 10px;
-
 }
 .mainContent p {
-  font-family: "Gilroy-Regular";
-  color: rgb(136, 136, 136);
-  font-size: 20px;
+	font-family: "Gilroy-Regular";
+	color: rgb(136, 136, 136);
+	font-size: 20px;
 	line-height: 140%;
 	margin-bottom: 32px;
 }
-.mainContetnBtnList{}
+.mainContetnBtnList {
+}
 
-.btnStart{
-  font-family:"Gilroy-Bold";
-  color: #fff;
-  padding: 16px 31px ;
-  border-radius: 100px;
-  background: #F25822;
-  font-style: 16px;
-  border: none;
-  cursor: pointer;
+.btnStart {
+	font-family: "Gilroy-Bold";
+	color: #fff;
+	padding: 16px 31px;
+	border-radius: 100px;
+	background: #f25822;
+	font-style: 16px;
+	border: none;
+	cursor: pointer;
 }
-.btnWatch{
-  font-family: "Gilroy-Bold";
-  color:rgb(170, 170, 170);
-  padding: 16px 31px ;
-  font-style: 16px;
-  background:none;
-  border: none;
-  cursor: pointer;
+.btnWatch {
+	font-family: "Gilroy-Bold";
+	color: rgb(170, 170, 170);
+	padding: 16px 31px;
+	font-style: 16px;
+	background: none;
+	border: none;
+	cursor: pointer;
 }
-.footer{
-  margin-bottom: 100px;
+.footer {
+	margin-bottom: 100px;
 }
