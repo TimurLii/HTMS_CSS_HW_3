@@ -33,21 +33,32 @@ img {
 }
 .header {
 	padding: 40px 0;
-	margin-bottom: 164px;
+	margin-bottom: 44px;
+	
 }
 .home {
-  font-family: Gilroy-Bold;
+	font-family: Gilroy-Bold;
 	color: rgb(242, 88, 34);
-font-size: 14px;
-font-weight: 600;
-line-height: 17px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 17px;
 }
-.aboutHome{
-  font-family: Gilroy-Regular;
-  color: rgb(0, 0, 0);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 17px;
+.navigation{
+	display: flex;
+	justify-content: space-between;
+}
+.right_nav{
+	width: 533px;
+	display: flex;
+	justify-content: space-between;
+	gap: 14px;
+}
+.aboutHome {
+	font-family: Gilroy-Regular;
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
 }
 .main {
 	font-family: "Gilroy-Regular";
@@ -56,16 +67,23 @@ line-height: 17px;
 	line-height: 120%;
 }
 .mainContent {
+	display: flex;
+	
 }
+.main_img{
+	min-width: 545;
+	min-height: 375;
+}
+
 .mainContentLeftSide h1 {
 	font-family: "Gilroy-Bold";
 	color: rgb(0, 0, 0);
 	font-size: 60px;
 	line-height: 120%;
-	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
-.mainContent p {
+.mainContentLeftSide p {
+	min-width: 545px;
 	font-family: "Gilroy-Regular";
 	color: rgb(136, 136, 136);
 	font-size: 20px;
@@ -73,6 +91,9 @@ line-height: 17px;
 	margin-bottom: 32px;
 }
 .mainContetnBtnList {
+	display: flex;
+	justify-content: left;
+
 }
 
 .btnStart {
@@ -81,7 +102,7 @@ line-height: 17px;
 	padding: 16px 31px;
 	border-radius: 100px;
 	background: #f25822;
-	font-style: 16px;
+	font-size: 16px;
 	border: none;
 	cursor: pointer;
 }
@@ -95,5 +116,10 @@ line-height: 17px;
 	cursor: pointer;
 }
 .footer {
-	margin-bottom: 100px;
+	padding: 100px;
+}
+.logos{
+	display: flex;
+	justify-content: space-between	;
+	gap: 48px;
 }
